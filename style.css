@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body {
+    background-color: #333;
+    position: block;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+}
+section {
+    font-size: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 400px;
+}
+div {
+    width: 70px;
+    display: block;
+    color: white;
+    border: 2px solid white;
+    text-align: center;
+}
+.div1 {
+    background-color: red;
+}
+.div2 {
+    background-color: yellow;
+}
+.div3 {
+    background-color: blue;
+}
+.div4 {
+    background-color: orange;
+}
+.div5 {
+    background-color: green;
+}
+.div6 {
+    background-color: darkorchid;
+}
+.div7 {
+    background-color: aqua;
+}
+.div8 {
+    background-color: teal;
+}
+.div9 {
+    background-color: deeppink;
+}
+.div10 {
+    background-color: burlywood;
+}

@@ -1,0 +1,19 @@
+@media (max-width: 500px) {
+    div {
+        width: 400px;
+    }
+    section {
+        flex-direction: column;
+        align-content: stretch;
+        align-content: center;
+    }
+}
+@media (max-width: 740px) and (min-width: 501px) {
+    section {
+        align-items: normal;
+        align-content: space-evenly;
+    }
+    div {
+        height: 70px;
+    }
+}
